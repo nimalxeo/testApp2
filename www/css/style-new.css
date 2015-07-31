@@ -1,0 +1,110 @@
+
+
+
+/*	05 - About Section
+-----------------------------------------------------------*/
+
+.more {
+	text-align: center; 
+	position: relative; 
+	bottom:0px; 
+	width: 100px;
+	height: 100px;
+	display:inline-block; 
+	z-index:100; 
+	left: 50%;
+	margin-left: -50px;
+	border-radius: 50%;
+	margin-top: -50px;
+	background: #3c3c3c;
+}
+
+.more a {
+	font-size: 36px; 
+	color: #fff;
+	line-height: 86px;
+}
+
+.more a:hover {
+	text-decoration:none; 
+	color: #fb0000;
+}
+
+.movie-avatar {
+	width: 383px;
+	height: 518px;
+	padding-top: 3px; 
+	padding-left: 3px;
+	margin-bottom: 25px;
+	position:relative;
+}
+
+
+
+.movie-avatar-img {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	overflow:hidden;
+	width: 370px;
+	height: 512px;
+}
+
+.movie-avatar-img:before {
+	content:'';
+	background:url(../img/movie-avatar-img-glare.png) no-repeat top left;
+	z-index: 999;
+	position:absolute;
+	display:block;
+	width: 100%;
+	height: 100%;
+}
+
+@media(max-width:420px) {
+	
+	.movie-avatar {
+		max-width: 100%;
+	}
+	
+	.movie-avatar-img {
+		max-width: 100%;
+	}
+	
+
+	.movie-disc {
+		background: none;
+	}
+}
+
+h1.section-title {
+	text-transform: uppercase;
+	font-size: 48px;
+	text-align: center;
+	margin-bottom: 92px;
+	margin-top: 16px;
+}
+
+h1.section-title:after{
+	position: relative;
+	content:'';
+	display:block;
+	width: 40px;
+	height: 2px;
+	background: #fb0000;
+	left: 50%;
+	margin-left: -20px;
+	margin-top: 26px;
+}
+
+/* About section heading style */
+
+#about {
+	padding-bottom: 50px;
+}
+
+#about h3,
+#about h4,
+#about h5,
+#about h6 {
+	margin-bottom: 26px;
+}
